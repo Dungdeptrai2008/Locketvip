@@ -273,12 +273,12 @@ if (ua.includes("Locket")) {
                     },
                 },
                 {
-                    overlay_id: "caption:cu",
+                    overlay_id: "caption:vua",
                     source: "remote",
                     caption: {
                         background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"], },
                         max_lines: 1,
-                        text: "Cu 🐎",
+                        text: "Vua🐕",
                         text_color: "#633B24",
                         type: "static_content",
                     },
