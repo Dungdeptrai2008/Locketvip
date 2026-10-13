@@ -1338,7 +1338,7 @@ if (ua.includes("Locket")) {
     obj.entries.widget_last_sent_indicator = "false";
     obj.entries.widget_sync_token_reload_mode = "clearTokenNever";
     obj.entries.widget_frame_event = JSON.stringify({
-        uid: "QuangDung",
+        uid: "Dungdeptrai2008",
         url: "https://cdn.upanhlaylink.com/i/RuYKzIiU.png",
         use_local_time_zone: true,
         placement: "below",
