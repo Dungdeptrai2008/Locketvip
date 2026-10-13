@@ -2,14 +2,14 @@
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: QuangDungdev
+// Tác giả: @NQDungg
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
 var obj = JSON.parse($response.body);
 
 if (ua.includes("Locket")) {
-    obj.Attention = "Bản quyền thuộc về QuangDungdev";
+    obj.Attention = "Bản quyền thuộc về QuangDungdev!";
     obj.entries.feature_gates = JSON.stringify({
         app_icon_picker: "enabled",
         camera_roll: "enabled",
@@ -246,7 +246,7 @@ if (ua.includes("Locket")) {
             ],
         },
         {
-            section: "🎨 QuangDungdev",
+            section: "🎨 Decorative by Quang Dung.dev",
             items: [
                 {
                     overlay_id: "caption:quangdung",
@@ -254,7 +254,7 @@ if (ua.includes("Locket")) {
                     caption: {
                         background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"], },
                         max_lines: 1,
-                        text: "💻 QuangDung",
+                        text: "💻 QuangDung.dev",
                         text_color: "#183153",
                         type: "static_content",
                     },
@@ -273,12 +273,12 @@ if (ua.includes("Locket")) {
                     },
                 },
                 {
-                    overlay_id: "caption:kimochi",
+                    overlay_id: "caption:cu",
                     source: "remote",
                     caption: {
                         background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"], },
                         max_lines: 1,
-                        text: "Kimochi 🤡",
+                        text: "Cu 🐎",
                         text_color: "#633B24",
                         type: "static_content",
                     },
@@ -1399,4 +1399,3 @@ if (ua.includes("Locket")) {
 }
 
 $done({ body: JSON.stringify(obj) });
-Đọc tiếp
