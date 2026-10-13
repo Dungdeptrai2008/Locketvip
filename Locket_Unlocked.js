@@ -249,7 +249,7 @@ if (ua.includes("Locket")) {
             section: "🎨 QuangDungdev",
             items: [
                 {
-                    overlay_id: "caption:duyvinh09",
+                    overlay_id: "caption:quangdung",
                     source: "remote",
                     caption: {
                         background: { colors: ["#B8E7FF", "#A8F5D0", "#DCCBFF"], },
@@ -273,7 +273,7 @@ if (ua.includes("Locket")) {
                     },
                 },
                 {
-                    overlay_id: "caption:cu",
+                    overlay_id: "caption:kimochi",
                     source: "remote",
                     caption: {
                         background: { colors: ["#FFD6A5", "#FFF1A8", "#FFC4D6"], },
