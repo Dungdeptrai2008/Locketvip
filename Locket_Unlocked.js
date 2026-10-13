@@ -1237,8 +1237,8 @@ if (ua.includes("Locket")) {
         title: { en: "Locket Gold", vi: "Locket Gold" },
         profile_banner_title: { en: "Locket Gold", vi: "Locket Gold", },
         completed_title: {
-            en: "Welcome to Gold!\nCracked by QuangDung",
-            vi: "Chào mừng bạn đến với Locket Gold!\nCrack bởi QuangDung",
+            en: "Welcome to Gold!\nCracked by duyvinh09",
+            vi: "Chào mừng bạn đến với Locket Gold!\nCrack bởi duyvinh09",
         },
     });
     obj.entries.upsell_features = JSON.stringify({
@@ -1338,7 +1338,7 @@ if (ua.includes("Locket")) {
     obj.entries.widget_last_sent_indicator = "false";
     obj.entries.widget_sync_token_reload_mode = "clearTokenNever";
     obj.entries.widget_frame_event = JSON.stringify({
-        uid: "Dungdeptrai2008",
+        uid: "duyvinh09",
         url: "https://cdn.upanhlaylink.com/i/RuYKzIiU.png",
         use_local_time_zone: true,
         placement: "below",
@@ -1399,3 +1399,4 @@ if (ua.includes("Locket")) {
 }
 
 $done({ body: JSON.stringify(obj) });
+Đọc tiếp
