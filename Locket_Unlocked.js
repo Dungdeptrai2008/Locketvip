@@ -273,6 +273,19 @@ if (ua.includes("Locket")) {
                     },
                 },
                 {
+                    overlay_id: "caption:themalaihay",
+                    source: "remote",
+                    caption: {
+                        background: { colors: ["#9CD8FE", "#F79FBC"] },
+                        icon: { data: "🤓", type: "emoji" },
+                        max_lines: 1,
+                        text: "Thế mà lại hayy",
+                        localized_text: { en: "Feeling Cute", vn: "Cảm thấy dthw" },
+                        text_color: "#FFFFFF",
+                        type: "static_content",
+                    },
+                },
+                {
                     overlay_id: "caption:vua",
                     source: "remote",
                     caption: {
