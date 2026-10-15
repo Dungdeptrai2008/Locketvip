@@ -3,13 +3,13 @@
 > ScriptName        𝐑𝐞𝐯𝐞𝐧𝐮𝐞𝐂𝐚𝐭
 > Author            @quangdungdev
 > TgChannel         https://t.me/nqdungg
-> ScriptURL         https://raw.githubusercontent.com/quangdungdev/Module_IOS/refs/heads/main/js/revenuecat.js
+> ScriptURL         https://raw.githubusercontent.com/Dungdeptrai2008/Locketvip/refs/heads/main/revenuecat.js
 
 
 [rewrite_local]
 
 # ～ RevenueCat@quangdungdev
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/quangdungdev/Module_IOS/refs/heads/main/js/revenuecat.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/Dungdeptrai2008/Locketvip/refs/heads/main/revenuecat.js
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/quangdungdev/Module_IOS/refs/heads/main/js/deleteHeader.js
 
 [mitm]
