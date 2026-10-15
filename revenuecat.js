@@ -10,7 +10,7 @@
 
 # ～ RevenueCat@quangdungdev
 ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$) url script-response-body https://raw.githubusercontent.com/Dungdeptrai2008/Locketvip/refs/heads/main/revenuecat.js
-^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/quangdungdev/Module_IOS/refs/heads/main/js/deleteHeader.js
+^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers) url script-request-header https://raw.githubusercontent.com/Dungdeptrai2008/Locketvip/refs/heads/main/deleteHeader.js
 
 [mitm]
 
